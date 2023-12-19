@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Main {
-
-    static void plus() {
+//kullanıcıdan veri almak için Scanner'ı kullanıyoruz
+public class Main {                                //menüdeki işlemler için sırasıyla koşulları oluşturuyoruz
+    static void plus() {                           // hepsi için ayrı sonuçlar belirleyerek ekrana yazdırıyoruz
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
         while (true) {
