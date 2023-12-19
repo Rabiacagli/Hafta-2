@@ -19,7 +19,7 @@ public class Main {
             return false;
         }
     }
-    public static void main(String[] args) {   // kullanıcıdan veri aldıktan sonra ekrana yazdırıyoruz
+    public static void main(String[] args) {   // kullanıcıdan veri alıp ekrana yazdırıyoruz
         Scanner inp = new Scanner(System.in);
         System.out.print("Sayı Giriniz: ");
         int number = inp.nextInt();
