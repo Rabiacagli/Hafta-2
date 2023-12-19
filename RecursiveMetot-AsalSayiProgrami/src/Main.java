@@ -24,6 +24,6 @@ public class Main {
 
         boolean asalResult = isAsal(sayi);
 
-        System.out.println(sayi + (asalResult ? " Asal sayıdır." : " Asal sayı değildir."));
+        System.out.println(sayi + (asalResult ? " sayısı ASAL sayıdır." : " sayısı ASAL sayı değildir."));
     }
 }
