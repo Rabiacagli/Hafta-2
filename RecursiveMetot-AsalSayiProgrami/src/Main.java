@@ -1,30 +1,29 @@
 import java.util.Scanner;
 public class Main {
-    static boolean isAsal(int number) {
-        int counter = 0;
-        for(int i = 2; i < number; i++)
-        {
-            if(number % i == 0) {
-                counter++;
-            }
-        }
-        if(counter == 0) {
-            return true;
-        }
-        else {
+    static boolean isAsal(int n, int divider) {
+
+        if (n <= 1) {          //Asal olma koşulu oluşturulur
             return false;
         }
+        if (divider * divider > n) {
+            return true;
+        }
+        if (n % divider == 0) {
+            return false;
+        }
+
+        return isAsal(n, divider + 1);
+    }
+    static boolean isAsal(int n) {
+        return isAsal(n, 2);
     }
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Bir sayı giriniz: ");
-        int number = scan.nextInt();
+        Scanner scanner = new Scanner(System.in); // Kullanıcıdan veri almak için bir Scanner nesnesi oluşturulur.
+        System.out.print("Bir sayı girin: ");
+        int sayi = scanner.nextInt();
 
-        if(isAsal(number)) {
-            System.out.println( number + " Asal sayıdır.");
-        }
-        else {
-            System.out.println( number + " Asal sayı değildir.");
-        }
+        boolean asalResult = isAsal(sayi);
+
+        System.out.println(sayi + (asalResult ? " Asal sayıdır." : " Asal sayı değildir."));
     }
 }
