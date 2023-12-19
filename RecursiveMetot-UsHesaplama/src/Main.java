@@ -8,7 +8,6 @@ public class Main {
             return 1;
         } else {
             int result = base * power(base, pow - 1);
-
             return result;
         }
     }
