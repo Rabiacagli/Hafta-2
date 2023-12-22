@@ -21,7 +21,7 @@ hireYear : İşe başlangıç yılı
 fazladan çalıştığı her saat başına 30 TL olacak şekilde bonus ücretleri hesaplayacaktır.
 
 **raiseSalary() :** Çalışanın işe başlangıç yılına göre maaş artışını hesaplayacaktır. 
-Şuan ki yılı 2021 olarak alın.
+Şuanki yılı 2021 olarak alıyoruz.
 
 Eğer çalışan 10 yıldan az bir süredir çalışıyorsa maaşına %5 zam yapılacaktır.
 
