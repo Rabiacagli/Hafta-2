@@ -1,5 +1,4 @@
 import java.util.Random;
-
 public class Ring {
         Fighter f1;
         Fighter f2;
