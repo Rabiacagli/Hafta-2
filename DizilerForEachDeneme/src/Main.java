@@ -29,9 +29,9 @@ int[] list = {1, 2, 3, 4, 5};
         for (int i = 0; i < matris.length; i++) {
             for (int j = 0; j < matris[i].length; j++){
                // System.out.println(matris[i][j]);
-            //    System.out.print(matris[i][j] + " ");
-            }
-          //  System.out.println();
+//            //    System.out.print(matris[i][j] + " ");
+//            }
+//          //  System.out.println();
 
         }
        /* for (int[]row : matris) {
