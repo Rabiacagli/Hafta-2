@@ -10,7 +10,7 @@ public class Main {
 
         int[][] transpoz = new int[column][row]; // bu değişkenleri Transpoz oluşturmak için kullanıyoruz
 
-        for (int i = 0; i < row; i++) {           // transpoz'u matris'in sütun ve kolonları tersi olacak şekilde birbirine eşitliyoruz
+        for (int i = 0; i < row; i++) {           // transpoz'u matris'in satır ve sütunları tersi olacak şekilde birbirine eşitliyoruz
             for (int j = 0; j < column; j++) {
                 transpoz[j][i] = matris[i][j];
             }
