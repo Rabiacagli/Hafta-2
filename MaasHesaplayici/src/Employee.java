@@ -32,7 +32,7 @@ public class Employee {
     }
     double raiseSalary;
     int now = 2021;
-    void raiseSalary() {            // raiseSalary() metodunu kullanıyoruz ve maaş artışı koşullarını belirliyoruz.
+    void raiseSalary() {          // raiseSalary() metodunu kullanıyoruz ve maaş artışı koşullarını belirliyoruz.
         int year = (now - this.hireYear);
         if (year < 10) {
             raiseSalary = (this.salary * 0.05);
