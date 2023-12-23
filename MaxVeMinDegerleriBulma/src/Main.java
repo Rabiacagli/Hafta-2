@@ -3,32 +3,27 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[] list = {56, 34, 1, 8, 101, -2, -33};
-        Arrays.sort(list);
-        System.out.println(toStrin);
-
-        int min = list[0];
-        int max = list[0];
-
-        System.out.println("Bir Sayı Giriniz: ");
+        System.out.print("Bir Sayı Giriniz: ");
         Scanner inp = new Scanner(System.in);
         int n = inp.nextInt();
 
-        for (int i : list) {
+        int[] list = {2,56,9,n,15,302,-7,256};
+        Arrays.sort(list);
+        System.out.println(Arrays.toString(list));
 
-                if (i <= n){
-                min = i;
-                }
+        for(int i = 0; i < list.length; i++){
+            if (list[i] == n) {
 
-                if (i >= n){
-                max = i;
-                }
+                int j = i - 1;
+                int k = i + 1;
+                int yakinKucuk = list[j];
+                int yakinBuyuk = list[k];
+
+                System.out.println(" ");
+                System.out.println("Girilen Sayıya Yakın Küçük Sayı : " + yakinKucuk);
+                System.out.println("Girilen Sayıya Yakın Büyük Sayı : " + yakinBuyuk);
+
             }
-
-       // System.out.println("Minimum Değer " + min);
-        //System.out.println("Maximum Değer " + max);
         }
-
-
-
     }
+}
