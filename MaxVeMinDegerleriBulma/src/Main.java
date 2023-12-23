@@ -7,7 +7,7 @@ public class Main {
         Scanner inp = new Scanner(System.in);
         int n = inp.nextInt();
 
-        int[] list = {2,56,9,n,15,302,-7,256};  // dizinin içine 'n' sayısını yazıyoruz kullanıcıdan alacağız
+        int[] list = {2,56,9,n,15,302,-7,256};   // dizinin içine 'n' sayısını yazıyoruz kullanıcıdan alacağız
         Arrays.sort(list);                       // ve Arrays sınıfıyla tüm sayıları sıralıyoruz
         System.out.println(Arrays.toString(list));
 
