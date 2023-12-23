@@ -48,8 +48,8 @@ public class Employee {
         }
     }
     void totalSalary() {                    //totalSalary() metodunu kullanıyoruz
-        double taxBonus = salary + bonus - tax;      // vergi ve bonuslar ile maaşı belirliyoruz, sout'la ekrana yazdırıyoruz
-        double totalSalary = salary + raiseSalary + bonus - tax;    // toplam maaşı belirliyoruz, sout'la ekrana yazdırıyoruz
+        double taxBonus = salary + bonus - tax;      // vergi ve bonuslar ile maaşı belirliyoruz
+        double totalSalary = salary + raiseSalary + bonus - tax;    // toplam maaşı belirliyoruz
         System.out.println("Vergi ve Bonuslar ile birlikte maaş: " + taxBonus);
         System.out.println("Toplam Maaş: " + totalSalary);
 
